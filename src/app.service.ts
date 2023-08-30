@@ -1,10 +1,10 @@
 import { Injectable } from '@nestjs/common';
-import { createJwtToken } from 'common/helpers/helper';
+import { createJwtToken } from 'src/helpers/helper';
 
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'Hello World!';
+    return 'OK!';
   }
 
   getToken(): string {
